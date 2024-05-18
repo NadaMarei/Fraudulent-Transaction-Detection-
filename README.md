@@ -8,7 +8,7 @@ import pandas as pd # provide high-performance, easy-to-use data structures and 
 ```
 
 ## Reading the CSV file
-`data = pd.read_csv('Fraud.csv')`
+```data = pd.read_csv('Fraud.csv')```
 
 #### you can find the dataset here:
 [https://drive.google.com/drive/folders/1kC2b0_rDrb5HpJFNXP3ZFlD2ePeMzZ9Y?usp=drive_link]
