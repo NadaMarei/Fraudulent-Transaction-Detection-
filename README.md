@@ -2,8 +2,10 @@
 Machine Learning model for detecting fraudulent transaction
 
 ## Importing nesseasary liberaries
-`import numpy as np  # support multi-dimensional arrays and matrices`
-`import pandas as pd # provide high-performance, easy-to-use data structures and data analysis tools`
+```
+import numpy as np  # support multi-dimensional arrays and matrices
+import pandas as pd # provide high-performance, easy-to-use data structures and data analysis tools
+```
 
 ## Reading the CSV file
 `data = pd.read_csv('Fraud.csv')`
@@ -13,10 +15,14 @@ Machine Learning model for detecting fraudulent transaction
 
 ## Understanding the data
 #### show the first 5 rows in the df
-`data.head()`
+```
+data.head()
+```
 
 #### show the last 5 rows in the df
-`data.tail()`
+```
+data.tail()
+```
 
 #### representing the dimensions of the DataFrame
 `data.shape`
